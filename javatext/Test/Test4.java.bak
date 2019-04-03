@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Test4{
+	public static void main(String[] args){
+	Random r = new Random(66);
+	int rInt = r.nextInt();
+	System.out.println(rint);
+	char ch1 = '\n';
+	System.out.println(ch1);
+	char c = 97;
+	System.out.println(c);
+	char b = '0';
+	System.out.println((int)b);
+	}
+}

@@ -1,0 +1,18 @@
+import java.util.*;
+public class Ketanglian1{
+	public static void main(String[] args){
+		Scanner sc = new Scanner(System.in);
+		String inputname = sc.next();
+		System.out.println("请输入用户名：");
+		char username = inputname.charAt(0);
+		char Usern = 'a';
+		String inputpassword = sc.next();
+		System.out.println("请输入密码：");
+		char userpsw = inputpassword.charAt(0);
+		char Psw = 'c';
+	if(username == Usern && userpsw == Psw){
+		System.out.println("登录成功....");
+	}
+	
+	}
+}
