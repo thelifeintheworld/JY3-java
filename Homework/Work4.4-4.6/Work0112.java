@@ -9,7 +9,8 @@ public class Work0112{
 		 b =i*5;
 		 for(j=0;j<=33;j++){
 			 b += j*3;
-		 for(k=0;k<=300;k++){
+			 double d = (a-b)*3;
+		 for(k=0;k<=d;k++){
 			  b += k*(1/3);
 		if(a == b){
 				c++;
