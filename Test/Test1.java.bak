@@ -1,0 +1,9 @@
+import java.util.Scanner;
+public class Test1{
+public static void main(String[] args){
+	int age1 = 22;
+	int age2 = 22; 
+	int i = age1 +age2 ;
+	System.out.printIn((int)i);
+}
+}

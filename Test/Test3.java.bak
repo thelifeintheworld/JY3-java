@@ -1,0 +1,12 @@
+public class Test3{
+	public static void main(String[] args){
+	long a = 12345678901L;
+	double b = 3.1415926;
+	float d = (double)b;
+	double c = 1234567890.0987654321;
+	System.out.print(a);
+	System.out.print(b);
+	System.out.print(c);
+
+	}
+}
