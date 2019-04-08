@@ -1,0 +1,22 @@
+import java.util.*;
+public class Function1{
+	public static void main(String[] args){
+	//int x = 48;
+	//char y = f(x);
+	//char n = 'ÖĞ';
+	//int m = g(n);
+	Scanner sc = new Scanner(System.in);
+	System.out.println("ÇëÊäÈëÊı×Ö£º");
+	int x = sc.nextInt();
+	char y =  IntToChar(x);
+	System.out.println(y);
+	//System.out.println(m);
+	}
+	public static char IntToChar(int c){
+	return (char)c ;
+	}
+	//public static char f(int x){
+	//char d = (char)x; 
+	//return  d;
+	//}
+}
